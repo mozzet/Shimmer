@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90482ADB2435DDA200703200"
+               BlueprintIdentifier = "904F9B422436D95200EAB4D5"
                BuildableName = "Shimmer.framework"
                BlueprintName = "Shimmer"
                ReferencedContainer = "container:Shimmer.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90482ADB2435DDA200703200"
+            BlueprintIdentifier = "904F9B422436D95200EAB4D5"
             BuildableName = "Shimmer.framework"
             BlueprintName = "Shimmer"
             ReferencedContainer = "container:Shimmer.xcodeproj">
