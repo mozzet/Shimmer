@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90482AE12435DDA200703200 /* Shimmer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482ADF2435DDA200703200 /* Shimmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90482AED2435DDDC00703200 /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AE72435DDDC00703200 /* FBShimmering.h */; };
-		90482AEE2435DDDC00703200 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AE82435DDDC00703200 /* FBShimmeringLayer.h */; };
+		90482AED2435DDDC00703200 /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AE72435DDDC00703200 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90482AEE2435DDDC00703200 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AE82435DDDC00703200 /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90482AEF2435DDDC00703200 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482AE92435DDDC00703200 /* FBShimmeringView.m */; };
 		90482AF02435DDDC00703200 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482AEA2435DDDC00703200 /* FBShimmeringLayer.m */; };
-		90482AF12435DDDC00703200 /* FBShimmering-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 90482AEB2435DDDC00703200 /* FBShimmering-Prefix.pch */; };
-		90482AF22435DDDC00703200 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AEC2435DDDC00703200 /* FBShimmeringView.h */; };
+		90482AF12435DDDC00703200 /* FBShimmering-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 90482AEB2435DDDC00703200 /* FBShimmering-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		90482AF22435DDDC00703200 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482AEC2435DDDC00703200 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90482ADC2435DDA200703200 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90482ADF2435DDA200703200 /* Shimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shimmer.h; sourceTree = "<group>"; };
 		90482AE02435DDA200703200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90482AE72435DDDC00703200 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = SOURCE_ROOT; };
 		90482AE82435DDDC00703200 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = SOURCE_ROOT; };
@@ -58,7 +56,6 @@
 		90482ADE2435DDA200703200 /* Shimmer */ = {
 			isa = PBXGroup;
 			children = (
-				90482ADF2435DDA200703200 /* Shimmer.h */,
 				90482AE02435DDA200703200 /* Info.plist */,
 				90482AEB2435DDDC00703200 /* FBShimmering-Prefix.pch */,
 				90482AE72435DDDC00703200 /* FBShimmering.h */,
@@ -78,7 +75,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				90482AEE2435DDDC00703200 /* FBShimmeringLayer.h in Headers */,
-				90482AE12435DDA200703200 /* Shimmer.h in Headers */,
 				90482AF12435DDDC00703200 /* FBShimmering-Prefix.pch in Headers */,
 				90482AF22435DDDC00703200 /* FBShimmeringView.h in Headers */,
 				90482AED2435DDDC00703200 /* FBShimmering.h in Headers */,
