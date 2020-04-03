@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		904F9B542436D9EE00EAB4D5 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 904F9B4E2436D9EE00EAB4D5 /* FBShimmeringLayer.m */; };
-		904F9B552436D9EE00EAB4D5 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904F9B4F2436D9EE00EAB4D5 /* FBShimmeringView.m */; };
-		904F9B562436D9EE00EAB4D5 /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F9B502436D9EE00EAB4D5 /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904F9B572436D9EE00EAB4D5 /* FBShimmering-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 904F9B512436D9EE00EAB4D5 /* FBShimmering-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		904F9B582436D9EE00EAB4D5 /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F9B522436D9EE00EAB4D5 /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		904F9B592436D9EE00EAB4D5 /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F9B532436D9EE00EAB4D5 /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904F9B482436D95200EAB4D5 /* Shimmer.h in Headers */ = {isa = PBXBuildFile; fileRef = 904F9B462436D95200EAB4D5 /* Shimmer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F06757243721640071480C /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F06751243721640071480C /* FBShimmeringLayer.m */; };
+		90F06758243721640071480C /* FBShimmeringLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F06752243721640071480C /* FBShimmeringLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F06759243721640071480C /* FBShimmeringView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F06753243721640071480C /* FBShimmeringView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F0675A243721640071480C /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F06754243721640071480C /* FBShimmeringView.m */; };
+		90F0675B243721640071480C /* FBShimmering.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F06755243721640071480C /* FBShimmering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F0675C243721640071480C /* FBShimmering-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 90F06756243721640071480C /* FBShimmering-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		904F9B432436D95200EAB4D5 /* Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904F9B462436D95200EAB4D5 /* Shimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shimmer.h; sourceTree = "<group>"; };
 		904F9B472436D95200EAB4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		904F9B4E2436D9EE00EAB4D5 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = SOURCE_ROOT; };
-		904F9B4F2436D9EE00EAB4D5 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = SOURCE_ROOT; };
-		904F9B502436D9EE00EAB4D5 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = SOURCE_ROOT; };
-		904F9B512436D9EE00EAB4D5 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FBShimmering-Prefix.pch"; path = "FBShimmering/FBShimmering-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		904F9B522436D9EE00EAB4D5 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = SOURCE_ROOT; };
-		904F9B532436D9EE00EAB4D5 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = SOURCE_ROOT; };
+		90F06751243721640071480C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = FBShimmering/FBShimmeringLayer.m; sourceTree = SOURCE_ROOT; };
+		90F06752243721640071480C /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = FBShimmering/FBShimmeringLayer.h; sourceTree = SOURCE_ROOT; };
+		90F06753243721640071480C /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = FBShimmering/FBShimmeringView.h; sourceTree = SOURCE_ROOT; };
+		90F06754243721640071480C /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = FBShimmering/FBShimmeringView.m; sourceTree = SOURCE_ROOT; };
+		90F06755243721640071480C /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = FBShimmering/FBShimmering.h; sourceTree = SOURCE_ROOT; };
+		90F06756243721640071480C /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FBShimmering-Prefix.pch"; path = "FBShimmering/FBShimmering-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		904F9B452436D95200EAB4D5 /* Shimmer */ = {
 			isa = PBXGroup;
 			children = (
+				904F9B462436D95200EAB4D5 /* Shimmer.h */,
+				90F06756243721640071480C /* FBShimmering-Prefix.pch */,
+				90F06755243721640071480C /* FBShimmering.h */,
+				90F06752243721640071480C /* FBShimmeringLayer.h */,
+				90F06751243721640071480C /* FBShimmeringLayer.m */,
+				90F06753243721640071480C /* FBShimmeringView.h */,
+				90F06754243721640071480C /* FBShimmeringView.m */,
 				904F9B472436D95200EAB4D5 /* Info.plist */,
-				904F9B512436D9EE00EAB4D5 /* FBShimmering-Prefix.pch */,
-				904F9B522436D9EE00EAB4D5 /* FBShimmering.h */,
-				904F9B502436D9EE00EAB4D5 /* FBShimmeringLayer.h */,
-				904F9B4E2436D9EE00EAB4D5 /* FBShimmeringLayer.m */,
-				904F9B532436D9EE00EAB4D5 /* FBShimmeringView.h */,
-				904F9B4F2436D9EE00EAB4D5 /* FBShimmeringView.m */,
 			);
 			path = Shimmer;
 			sourceTree = "<group>";
@@ -74,10 +77,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904F9B582436D9EE00EAB4D5 /* FBShimmering.h in Headers */,
-				904F9B572436D9EE00EAB4D5 /* FBShimmering-Prefix.pch in Headers */,
-				904F9B592436D9EE00EAB4D5 /* FBShimmeringView.h in Headers */,
-				904F9B562436D9EE00EAB4D5 /* FBShimmeringLayer.h in Headers */,
+				90F0675C243721640071480C /* FBShimmering-Prefix.pch in Headers */,
+				90F06759243721640071480C /* FBShimmeringView.h in Headers */,
+				904F9B482436D95200EAB4D5 /* Shimmer.h in Headers */,
+				90F06758243721640071480C /* FBShimmeringLayer.h in Headers */,
+				90F0675B243721640071480C /* FBShimmering.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +117,7 @@
 				TargetAttributes = {
 					904F9B422436D95200EAB4D5 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -149,8 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904F9B542436D9EE00EAB4D5 /* FBShimmeringLayer.m in Sources */,
-				904F9B552436D9EE00EAB4D5 /* FBShimmeringView.m in Sources */,
+				90F06757243721640071480C /* FBShimmeringLayer.m in Sources */,
+				90F0675A243721640071480C /* FBShimmeringView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +285,7 @@
 		904F9B4C2436D95200EAB4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PC36C8P696;
@@ -296,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noondate.Shimmer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +311,7 @@
 		904F9B4D2436D95200EAB4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PC36C8P696;
@@ -321,7 +328,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noondate.Shimmer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
